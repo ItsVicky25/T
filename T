@@ -1,0 +1,97 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Webpage</title>
+    <style>
+        /* General Styles */
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }/* Heading and Paragraph Styles */
+    h1 {
+        font-family: 'Georgia', serif;
+        color: #333;
+        text-align: center;
+    }
+    p {
+        color: #555;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    /* Button Styling */
+    .btn {
+        display: block;
+        width: 200px;
+        margin: 20px auto;
+        padding: 10px;
+        background-color: #007BFF;
+        color: white;
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    .btn:hover {
+        background-color: #0056b3;
+    }
+
+    /* Centering a Box with Flexbox */
+    .center-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .box {
+        background-color: white;
+        padding: 30px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    /* Navigation Bar */
+    .navbar {
+        background-color: #333;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+    }
+    .navbar a {
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+    }
+    .navbar a:hover {
+        background-color: #575757;
+    }
+</style>
+
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div><h1>Welcome to My Styled Webpage</h1>
+<p>This is a paragraph demonstrating the applied styles.</p>
+
+<button class="btn">Click Me</button>
+
+<div class="center-box">
+    <div class="box">
+        <h2>Centered Box</h2>
+        <p>This box is centered using Flexbox.</p>
+    </div>
+</div>
+
+</body>
+</html>
